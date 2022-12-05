@@ -6,8 +6,8 @@ This repository is the final project of DSAA6000D,  which enables a conditional 
 ## Installation 
 
 ```bash
-conda create -n dst python=3.7 
-conda activate dst
+conda create -n di python=3.7 
+conda activate di
 pip install torch 
 pip install PyTDC 
 conda install -c rdkit rdkit 
@@ -15,11 +15,7 @@ conda install -c rdkit rdkit
 
 Activate conda environment. 
 ```bash
-conda activate dst
-```
-
-make directory
-```bash
+conda activate di
 mkdir -p save_model result 
 ```
 
@@ -54,11 +50,3 @@ python src/denovo.py qed 500
 ```bash 
 python src/evaluate.py qed
 ```
-
-
-
-
-
-
-
-# 6000D
