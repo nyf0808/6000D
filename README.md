@@ -2,7 +2,20 @@
 
 This repository is the final project of DSAA6000D,  which enables a conditional molecular optimization with deepinversion. 
 
-
+- src
+  - chemutils.py (Chemical tools
+  - clean.py (Clean data
+  - denovo.py (Generate molecule
+  - download.py (Download Dataset
+  - dpp.py  (Dpp algorithm
+  - evaluate.py (test
+  - gnn_layer.py (gnn
+  - inference_utils.py (Tools related to deepinversion
+  - labelling.py (label data
+  - module.py (gnn
+  - train.py (train gnn
+  - utils.py
+  - vocabulary.py (Decomposition of molecules into vocabularies
 ## Installation 
 
 ```bash
