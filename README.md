@@ -33,7 +33,7 @@ mkdir -p save_model result
 ```
 
 ## Raw Data 
-Download `ZINC`.
+Download `ZINC` dataset.
 ```bash
 python src/download.py
 ```
@@ -59,7 +59,8 @@ python src/denovo.py qed 500
 ```
 
 ## evaluate 
-
+We hope to get molecules with better qed scores, while maintaining their similarity with the initial molecules.
 ```bash 
 python src/evaluate.py qed
 ```
+
